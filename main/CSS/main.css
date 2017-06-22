@@ -1,0 +1,152 @@
+body{
+   font-family: 'Open Sans', sans-serif;
+ background-image: url("../IMG/bg.png");
+     background-repeat: no-repeat;
+     background-size:cover;
+
+       
+}
+form{
+   padding:0px !important;
+}
+
+.navbar-brand img{
+    width:98px;
+  
+}
+.navbar img{
+        display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98px;
+}
+
+
+.main-header{
+ text-align: left;
+ margin-top:5px;
+}
+
+.navbar{
+    opacity:1;
+    position:relative;
+    border-radius: 0px;
+    background-color:#2d326c;
+    border:none;
+}
+.navbar h3{
+   display: block;
+    margin: 0 auto;
+    width: 20%;
+    color:white;
+    margin-top: 13px;
+}
+.hero-img{
+        background-image: url(../IMG/hero-img.jpg);
+    width: 100%;
+    height: 342px;
+    background-repeat: no-repeat;
+    background-size: contain;
+        margin-bottom: 15px;
+ 
+}
+.btn.blue{
+    background-color:#4267b2;
+    color:white;
+    text-transform: uppercase;
+}
+.btn{
+  border:none;
+    margin-bottom:10px;
+}
+.btn.orange{
+    background-color:#ff6633;
+    color:White;
+    
+    text-transform: uppercase;
+}
+.device .thumbnail {
+    padding:0px;
+    height:260px;
+}
+.device .thumbnail .top {
+  background-color:#454b93;
+    border-top-left-radius: 4px;
+    border-top-right-radius:4px;
+    padding:30px; 
+    padding-bottom:12px;
+    height:140px;
+
+
+}
+.device .thumbnail h3,.device .thumbnail small{
+    color:white;
+    text-align:center; 
+    margin:0 auto; 
+    display:block;
+}
+.device .thumbnail p{
+    color:white;
+    
+ 
+}
+.device{
+    margin-top:20px;
+}
+.device .thumbnail .cap-row{
+display:block;
+}
+.device .thumbnail .cap-row img, .device .thumbnail .cap-row p{
+display:inline-block;
+margin-left:8px;
+}
+.device .thumbnail .cap-label {
+font-size:12px;
+font-weight:normal;
+}
+
+.device .thumbnail .cap-row img{
+    width:32px;
+}
+.device .thumbnail .cap-row p{
+    font-size:14px;
+    line-height:13px;
+    font-weight:bold;
+}
+
+.device .thumbnail img{
+   margin: 0 auto; 
+   display:block; 
+   margin-bottom:10px; 
+}
+
+.device .thumbnail{
+  
+    background-color:#2d326c;
+    border:none;
+    
+}
+.device .thumbnail .caption{
+padding: 16px 50px;
+}
+.device.device-2 .thumbnail .caption{
+padding: 40px 50px;
+}
+
+@media(max-width: 768px) 
+ { 
+.navbar h3{
+ 
+    width: 50%;
+    margin-top: -36px;
+
+}
+
+.main-header{
+ text-align: center;
+ margin-top:5px;
+}
+
+
+}
